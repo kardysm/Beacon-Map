@@ -21,7 +21,7 @@
 			"name": "data",
 			"type": "object",
 			"typeLabel": "object",
-			"required": false,
+			"required": true,
 			"id": "data",
 			"order": 2
 		}
