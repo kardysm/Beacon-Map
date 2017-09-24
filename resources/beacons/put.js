@@ -1,3 +1,3 @@
-protect('id')
-protect('latlng')
-protect('beacon')
+protect('id');
+protect('latlng');
+protect('beacon');

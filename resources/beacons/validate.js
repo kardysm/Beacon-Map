@@ -24,7 +24,7 @@ if(!isNumeric(this.latlng.lat) || !isNumeric(this.latlng.lng) ){
         this.latlng = {
             'lat': this.latlng.lat,
             'lng': this.latlng.lng
-        }
+        };
     }
 }
 
@@ -35,7 +35,7 @@ if(isString(this.beacon.protocol) && protocol.indexOf(this.beacon.protocol) >= 0
             this.beacon = {
                 'protocol': this.beacon.protocol,
                 'uid': this.beacon.uid
-            }
+            };
         }
     } else if(this.beacon.protocol == protocol[1] && Buffer.byteLength(this.beacon.uuid, 'utf8') == 16
     && this.beacon.major >=0 && this.beacon.major <= 65535
@@ -46,7 +46,7 @@ if(isString(this.beacon.protocol) && protocol.indexOf(this.beacon.protocol) >= 0
                 'uid': this.beacon.uid,
                 'major': this.beacon.major,
                 'minor': this.beacon.minor
-            }
+            };
         }
     } else {
         error('beacon','Beacon is not properly formatted');

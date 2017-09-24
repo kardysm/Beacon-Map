@@ -1,6 +1,6 @@
-this.isAdmin = false
-hide('isAdmin')
-hide('password')
+this.isAdmin = false;
+hide('isAdmin');
+hide('password');
 
 require('crypto').randomBytes(24, function(err, buffer) {
   var token = buffer.toString('hex');
