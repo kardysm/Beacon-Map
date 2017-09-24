@@ -1,0 +1,12 @@
+{
+	"type": "Email",
+	"host": "smtp.gmail.com",
+	"port": "465",
+	"ssl": true,
+	"username": "beacon.mapper@gmail.com",
+	"password": "sh4#rcGEcjrx",
+	"defaultFromAddress": "beacon.mapper@gmail.com",
+	"internalOnly": true,
+	"productionOnly": false,
+	"base64": false
+}
