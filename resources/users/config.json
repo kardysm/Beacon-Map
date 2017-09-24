@@ -1,0 +1,29 @@
+{
+	"type": "UserCollection",
+	"properties": {
+		"key": {
+			"name": "key",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "key",
+			"order": 0
+		},
+		"isAdmin": {
+			"name": "isAdmin",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "isAdmin",
+			"order": 1
+		},
+		"createdAt": {
+			"name": "createdAt",
+			"type": "date",
+			"typeLabel": "date",
+			"required": true,
+			"id": "createdAt",
+			"order": 2
+		}
+	}
+}

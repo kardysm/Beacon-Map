@@ -1,0 +1,21 @@
+{
+	"type": "Collection",
+	"properties": {
+		"latlng": {
+			"name": "latlng",
+			"type": "object",
+			"typeLabel": "object",
+			"required": true,
+			"id": "latlng",
+			"order": 0
+		},
+		"beacon": {
+			"name": "beacon",
+			"type": "object",
+			"typeLabel": "object",
+			"required": true,
+			"id": "beacon",
+			"order": 1
+		}
+	}
+}

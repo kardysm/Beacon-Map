@@ -1,0 +1,29 @@
+{
+	"type": "Collection",
+	"properties": {
+		"userId": {
+			"name": "userId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "userId",
+			"order": 0
+		},
+		"beaconId": {
+			"name": "beaconId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "beaconId",
+			"order": 1
+		},
+		"data": {
+			"name": "data",
+			"type": "object",
+			"typeLabel": "object",
+			"required": false,
+			"id": "data",
+			"order": 2
+		}
+	}
+}
